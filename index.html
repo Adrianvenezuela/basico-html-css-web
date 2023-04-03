@@ -12,15 +12,13 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
-    <!--slider-->
-
+    <!--slider--> 
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css"
     />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-    ">
   </head>
   <body>
     <div id="wrapper">
@@ -58,35 +56,53 @@
             </nav>
           </div>
         </header>
-        <div id="slider-wrap">
-          <section class="slider">
+        <section class="slider-wrap">
             <ul class="slider1">
-              <li>
-                <img src="img/slider/slider1.jpg" alt="imagen"/>
-                <img src="img/slider/slider2.jpg" alt="imagen" />
-                <img src="img/slider/slider3.jpg" alt="imagen" />
-              </li>
+              <li><img src="img/slider/slider1.jpg" alt="imagen" /></li>
+              <li><img src="img/slider/slider2.jpg" alt="imagen" /></li>
+              <li><img src="img/slider/slider3.jpg" alt="imagen" /></li>
             </ul>
           </section>
-        </div>
       </div>
     </div>
+
+<section class="one-third" id="skills">
+<div class="icon-wrap">
+<i class="fa fa-desktop"></i>
+</div>
+<h3>Diseño web</h3>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum corrupti ipsum fuga recusandae alias, modi facere fugiat, eos possimus id quibusdam omnis cumque cupiditate inventore enim iusto dolorum aut repellendus.</p>
+</section>
+ 
+<section class="one-third" id="skills">
+  <div class="icon-wrap">
+  <i class="fa fa-pencil-square-o"></i>
+  </div>
+  <h3>Diseño Grafico</h3>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum corrupti ipsum fuga recusandae alias, modi facere fugiat, eos possimus id quibusdam omnis cumque cupiditate inventore enim iusto dolorum aut repellendus.</p>
+  </section>
+
+  <section class="one-third" id="skills">
+    <div class="icon-wrap">
+    <i class="fa fa-file-code-o"></i>
+    </div>
+    <h3>Desarrollo web</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum corrupti ipsum fuga recusandae alias, modi facere fugiat, eos possimus id quibusdam omnis cumque cupiditate inventore enim iusto dolorum aut repellendus.</p>
+    </section>
+
     <!-- scripts-->
     <script>
       $(document).ready(function () {
-        $('.slider1')
-        .bxslider({
+        $(".slider1").bxslider({
           mode: "fade",
         });
-        $('.slider2')
-      .bxslider({
-        mode: 'fade',
+        $(".slider2").bxslider({
+          mode: "fade",
+        });
+        $(".slider3").bxslider({
+          mode: "fade",
+        });
       });
-      $('.slider3')
-      .bxslider({
-        mode: 'fade',
-      });
-    });
     </script>
   </body>
 </html>
