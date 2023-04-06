@@ -19,6 +19,13 @@
     />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $('.slider1').bxSlider({
+          mode: 'fade',
+        });
+      });
+    </script>
   </head>
   <body>
     <div id="wrapper">
@@ -56,8 +63,8 @@
             </nav>
           </div>
         </header>
-        <section id="slider-wrap">
-          <ul id="slider1">
+        <section class="slider-wrap">
+          <ul class="slider1">
             <li><img src="./img/slider/slider1.jpg" alt="imagen" /></li>
             <li><img src="./img/slider/slider2.jpg" alt="imagen" /></li>
             <li><img src="./img/slider/slider3.jpg" alt="imagen" /></li>
@@ -115,12 +122,12 @@
         corporis repudiandae architecto amet mollitia.
       </p>
     </section>
-      <section class="sedebar">
-        <img
-          src="https://static.rfstat.com/renderforest/images/v2/landing-pics/logo_landing/e1.png"
-          alt="imagen"
-        />
-      </section>
+    <section class="sedebar">
+      <img
+        src="https://static.rfstat.com/renderforest/images/v2/landing-pics/logo_landing/e1.png"
+        alt="imagen"
+      />
+    </section>
     <div class="clearfix-padding"></div>
     <!---servicios-->
     <div class="one-third-padding" id="Servicios">
@@ -201,19 +208,5 @@
         <a href="http://aestradacolina@gmail.com" target="_blank">Gmail</a>
       </p>
     </footer>
-    <!-- scripts-->
-    <script>
-      $(document).ready(function () {
-        $(".slider1").bxslider({
-          mode: "fade",
-        });
-        $(".slider2").bxslider({
-          mode: "fade",
-        });
-        $(".slider3").bxslider({
-          mode: "fade",
-        });
-      });
-    </script>
   </body>
 </html>
