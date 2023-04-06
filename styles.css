@@ -58,7 +58,7 @@ header {
 header #logo img {
   margin: 20px;
   float: left;
-  width: 150px;
+  width: 100px;
 }
 /*navigation */
 nav {
@@ -78,7 +78,6 @@ ul {
 nav ul li {
   font-size: 150%;
   display: inline-block;
-  float: left;
   padding: 10px;
 }
 nav ul li a {
